@@ -588,7 +588,7 @@ GameObject:
   - component: {fileID: 146299328}
   - component: {fileID: 146299331}
   m_Layer: 0
-  m_Name: Dialogue trigger
+  m_Name: Weirdhat Dialogue trigger
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2174,7 +2174,7 @@ GameObject:
   - component: {fileID: 546577396}
   - component: {fileID: 546577395}
   m_Layer: 0
-  m_Name: Egg destruction prologue
+  m_Name: Egg destruction text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2698,7 +2698,7 @@ GameObject:
   - component: {fileID: 653790139}
   - component: {fileID: 653790138}
   m_Layer: 0
-  m_Name: Text (TMP)
+  m_Name: Player Name
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11759,7 +11759,7 @@ GameObject:
   - component: {fileID: 1591998727}
   - component: {fileID: 1591998726}
   m_Layer: 0
-  m_Name: Coolhat dialogue
+  m_Name: Coolhat character
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12460,6 +12460,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1838016050}
   - component: {fileID: 1838016051}
+  - component: {fileID: 1838016054}
   - component: {fileID: 1838016053}
   - component: {fileID: 1838016052}
   m_Layer: 0
@@ -12606,6 +12607,33 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &1838016054
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1838016049}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c71522eafc315f4fb4683a23faf7450, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::UnityEventOnEnabled
+  customEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 546577395}
+        m_TargetAssemblyTypeName: TMPro.TextMeshPro, Unity.TextMeshPro
+        m_MethodName: set_text
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Wow... Thank you! Much better!
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &1843771835
 GameObject:
   m_ObjectHideFlags: 0
@@ -13515,7 +13543,7 @@ GameObject:
   - component: {fileID: 1924238085}
   - component: {fileID: 1924238084}
   m_Layer: 0
-  m_Name: Yellow Hexagon character dialogue
+  m_Name: Yellow Hexagon character
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
