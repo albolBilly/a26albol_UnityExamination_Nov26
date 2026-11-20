@@ -931,7 +931,7 @@ GameObject:
   - component: {fileID: 171593055}
   - component: {fileID: 171593054}
   m_Layer: 0
-  m_Name: Text (TMP)
+  m_Name: Hat selection tutorial text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2140,7 +2140,7 @@ GameObject:
   - component: {fileID: 546577396}
   - component: {fileID: 546577395}
   m_Layer: 0
-  m_Name: Text (TMP)
+  m_Name: Egg destruction prologue
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2301,16 +2301,16 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 546577394}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 969330109}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -21.93, y: -8.59}
+  m_AnchoredPosition: {x: -34.68064, y: -10.11171}
   m_SizeDelta: {x: 20, y: 5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &550787074
@@ -4229,7 +4229,7 @@ GameObject:
   m_Component:
   - component: {fileID: 969330109}
   m_Layer: 0
-  m_Name: Egg area
+  m_Name: Egg destroy area
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4252,6 +4252,7 @@ Transform:
   - {fileID: 1175194934}
   - {fileID: 2146784682}
   - {fileID: 840321077}
+  - {fileID: 546577397}
   m_Father: {fileID: 1243493600}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &979461543
@@ -5121,7 +5122,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1177256308}
   m_Layer: 0
-  m_Name: Hat area
+  m_Name: Hat judging area
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5334,7 +5335,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1243493600}
   m_Layer: 0
-  m_Name: Terrain
+  m_Name: Areas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5528,7 +5529,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1271171865}
   m_Layer: 0
-  m_Name: Beginner Area
+  m_Name: Slippery and buoyant area
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -13899,4 +13900,3 @@ SceneRoots:
   - {fileID: 1461320038}
   - {fileID: 694452447}
   - {fileID: 2067204167}
-  - {fileID: 546577397}
